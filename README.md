@@ -8,7 +8,7 @@ Usage, if you're very trusting:
 
 Usage, if you're less trusting:
 
-    curl -OL https://raw.githubusercontent.com/garthk/qt-build/master/Dockerfile
+    curl -OL https://raw.githubusercontent.com/garthk/unzip/master/Dockerfile
     less Dockerfile
     docker build -t unzip .
     docker run --rm -v $PWD:/unzip unzip whatevs.zip
